@@ -9,7 +9,7 @@ import itertools
 def add_extra_characters(fasta_file, snps_vcf, allsites_vcf, repeat_mask, output_file):
     # Read the fasta file
     fasta_data = SeqIO.read(fasta_file, 'fasta')
-    seq = MutableSeq(fasta_data.seq)
+    seq = MutableSeq(str(fasta_data.seq))
     ref_length = len(seq)
     print(f"Reference length: {ref_length}")
 

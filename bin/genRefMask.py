@@ -2,6 +2,9 @@
 
 # repeat masker adapted from MMM pipeline by David Eyre, 22 January 2019
 
+import sys
+print("Python version:", sys.version)
+
 from Bio.Blast.Applications import NcbiblastnCommandline
 import Bio
 from Bio import SeqIO
