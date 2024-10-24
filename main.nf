@@ -62,7 +62,7 @@ params.contigs = " "
 params.mlstdb = "cdifficile"
 params.prefix = "core"
 params.blastn = " "
-params.kraken2_db="/mnt/scratch/databases/k2_standard_8gb"
+params.kraken2_db="/users/bag/bmb039/my_space/databases/kraken/standard_8GB"
 
 
 /*
