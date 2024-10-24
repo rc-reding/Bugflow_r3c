@@ -1,9 +1,11 @@
 name: blast_env
 channels:
   - bioconda
+  - conda-forge
   - defaults
 dependencies:
   - bwa
+  - biopython
   - samtools
   - blast
   - bcftools
