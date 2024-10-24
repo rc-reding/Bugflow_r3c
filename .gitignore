@@ -1,10 +1,17 @@
 .nextflow*
-work/
-nextflow_reports/
+.git.bkp/*
+work/*
+data/*
+runs/*
+output/*
+nextflow_reports/*
 example_output/*
 private.md
 example_data/*.gz
 singularity/bug-flow.img
+carlos_test.sh
+slurm*
+*.fa
 
 conda/*
 !conda/*.yaml
